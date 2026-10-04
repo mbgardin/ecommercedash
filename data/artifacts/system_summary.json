@@ -1,0 +1,200 @@
+{
+  "generated_at": "2026-10-04 13:30:02",
+  "date_horizon": {
+    "start": "2026-10-05",
+    "end": "2026-11-03",
+    "periods": 30
+  },
+  "kpis": {
+    "total_skus": 12,
+    "projected_30d_revenue": 1364695.79,
+    "total_inventory_units": 2525,
+    "critical_stockouts_count": 10,
+    "overstocked_count": 0,
+    "best_performing_model": "Ensemble (LightGBM + Prophet)"
+  },
+  "model_benchmarks": {
+    "baseline": {
+      "avg_rmse": 7.55,
+      "avg_mae": 5.93,
+      "avg_wape_pct": 20.5,
+      "avg_interval_coverage_pct": 94.1
+    },
+    "lightgbm": {
+      "avg_rmse": 7.15,
+      "avg_mae": 5.56,
+      "avg_wape_pct": 19.1,
+      "avg_interval_coverage_pct": 51.8
+    },
+    "prophet": {
+      "avg_rmse": 9.81,
+      "avg_mae": 8.24,
+      "avg_wape_pct": 27.4,
+      "avg_interval_coverage_pct": 72.3
+    },
+    "ensemble": {
+      "avg_rmse": 7.38,
+      "avg_mae": 5.84,
+      "avg_wape_pct": 20.0,
+      "avg_interval_coverage_pct": 69.3
+    }
+  },
+  "sku_catalog": [
+    {
+      "sku_id": "ELEC-HP-100",
+      "name": "Apex Wireless Noise-Canceling Headphones",
+      "category": "Electronics",
+      "base_price": 199.99,
+      "cost_price": 95.0,
+      "base_daily_demand": 24,
+      "elasticity": -1.85,
+      "current_stock": 180,
+      "lead_time_days": 10,
+      "holding_cost_annual_pct": 0.22,
+      "description": "Premium over-ear wireless audio with active noise cancellation."
+    },
+    {
+      "sku_id": "ELEC-WATCH-200",
+      "name": "Pulse Pro Smart Fitness Watch",
+      "category": "Electronics",
+      "base_price": 149.5,
+      "cost_price": 68.0,
+      "base_daily_demand": 32,
+      "elasticity": -1.65,
+      "current_stock": 210,
+      "lead_time_days": 8,
+      "holding_cost_annual_pct": 0.2,
+      "description": "Continuous heart-rate, GPS tracking, and titanium bezel."
+    },
+    {
+      "sku_id": "ELEC-KEYB-300",
+      "name": "Vortex Pro Mechanical Gaming Keyboard",
+      "category": "Electronics",
+      "base_price": 119.0,
+      "cost_price": 48.0,
+      "base_daily_demand": 19,
+      "elasticity": -1.45,
+      "current_stock": 75,
+      "lead_time_days": 12,
+      "holding_cost_annual_pct": 0.18,
+      "description": "Hot-swappable tactile switches with per-key RGB backlighting."
+    },
+    {
+      "sku_id": "APPR-HOOD-400",
+      "name": "Highland Heavyweight Cotton Hoodie",
+      "category": "Apparel",
+      "base_price": 78.0,
+      "cost_price": 28.0,
+      "base_daily_demand": 45,
+      "elasticity": -2.1,
+      "current_stock": 140,
+      "lead_time_days": 14,
+      "holding_cost_annual_pct": 0.25,
+      "description": "450 GSM French terry hoodie with relaxed vintage silhouette."
+    },
+    {
+      "sku_id": "APPR-SHOE-500",
+      "name": "Strata Carbon Running Trainers",
+      "category": "Apparel",
+      "base_price": 165.0,
+      "cost_price": 62.0,
+      "base_daily_demand": 28,
+      "elasticity": -1.9,
+      "current_stock": 92,
+      "lead_time_days": 15,
+      "holding_cost_annual_pct": 0.24,
+      "description": "Engineered propulsion plate with responsive supercritical foam."
+    },
+    {
+      "sku_id": "APPR-JACK-600",
+      "name": "Selvedge Denim Workwear Jacket",
+      "category": "Apparel",
+      "base_price": 140.0,
+      "cost_price": 54.0,
+      "base_daily_demand": 14,
+      "elasticity": -1.75,
+      "current_stock": 580,
+      "lead_time_days": 14,
+      "holding_cost_annual_pct": 0.28,
+      "description": "14oz Japanese selvedge denim with brass hardware."
+    },
+    {
+      "sku_id": "HOME-ESPR-700",
+      "name": "Barista Touch Compact Espresso Machine",
+      "category": "Home & Kitchen",
+      "base_price": 389.0,
+      "cost_price": 185.0,
+      "base_daily_demand": 12,
+      "elasticity": -1.35,
+      "current_stock": 48,
+      "lead_time_days": 18,
+      "holding_cost_annual_pct": 0.18,
+      "description": "Dual PID thermal control with commercial 58mm portafilter."
+    },
+    {
+      "sku_id": "HOME-AIRP-800",
+      "name": "AeroPure Smart H13 HEPA Air Purifier",
+      "category": "Home & Kitchen",
+      "base_price": 129.99,
+      "cost_price": 52.0,
+      "base_daily_demand": 26,
+      "elasticity": -1.5,
+      "current_stock": 85,
+      "lead_time_days": 10,
+      "holding_cost_annual_pct": 0.19,
+      "description": "Covers 1,200 sq ft with real-time PM2.5 laser particle sensor."
+    },
+    {
+      "sku_id": "HOME-DESK-900",
+      "name": "ErgoFlex Ergonomic Lumbar Mesh Chair",
+      "category": "Home & Kitchen",
+      "base_price": 299.0,
+      "cost_price": 135.0,
+      "base_daily_demand": 16,
+      "elasticity": -1.6,
+      "current_stock": 650,
+      "lead_time_days": 21,
+      "holding_cost_annual_pct": 0.26,
+      "description": "Adaptive dynamic lumbar support with 4D armrests."
+    },
+    {
+      "sku_id": "GROC-COLD-101",
+      "name": "Artisan Nitro Cold Brew (12-Pack)",
+      "category": "Grocery",
+      "base_price": 39.99,
+      "cost_price": 16.5,
+      "base_daily_demand": 62,
+      "elasticity": -1.15,
+      "current_stock": 195,
+      "lead_time_days": 6,
+      "holding_cost_annual_pct": 0.3,
+      "description": "Single-origin organic steeped cold brew with micro-bubbles."
+    },
+    {
+      "sku_id": "GROC-MATC-102",
+      "name": "Ceremonial Grade Uji Matcha (100g)",
+      "category": "Grocery",
+      "base_price": 34.0,
+      "cost_price": 12.0,
+      "base_daily_demand": 41,
+      "elasticity": -1.25,
+      "current_stock": 160,
+      "lead_time_days": 7,
+      "holding_cost_annual_pct": 0.22,
+      "description": "First-harvest stone-ground Japanese green tea powder."
+    },
+    {
+      "sku_id": "CARE-TOOTH-103",
+      "name": "SonicPulse Magnetic Electric Toothbrush",
+      "category": "Personal Care",
+      "base_price": 69.5,
+      "cost_price": 24.0,
+      "base_daily_demand": 36,
+      "elasticity": -1.3,
+      "current_stock": 110,
+      "lead_time_days": 9,
+      "holding_cost_annual_pct": 0.17,
+      "description": "42,000 vibrations per minute with inductive travel charging case."
+    }
+  ]
+}

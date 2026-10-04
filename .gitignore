@@ -1,0 +1,18 @@
+# Node & Vite
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+env/
+venv/
+.venv/
+
+# System
+.DS_Store
+*.log

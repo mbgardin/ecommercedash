@@ -1,0 +1,3206 @@
+{
+  "ELEC-HP-100": {
+    "sku_id": "ELEC-HP-100",
+    "elasticity": -1.01,
+    "elasticity_label": "Moderately Elastic",
+    "current_price": 199.99,
+    "unit_cost": 95.0,
+    "current_stock": 180,
+    "days_of_inventory": 7.2,
+    "stockout_risk_status": "CRITICAL",
+    "recommended_action": "RAISE_PRICE_OR_EXPEDITE_REORDER",
+    "recommendation_text": "Low inventory runway (7.2 days). Limit markdowns or raise price to preserve margins and buffer stockout.",
+    "optimal_markdown_pct": 0.0,
+    "optimal_price": 199.99,
+    "sweep_curve": [
+      {
+        "discount_pct": 40.0,
+        "price": 119.99,
+        "projected_30d_demand": 1259.5,
+        "units_sold_30d": 180.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 21598.2,
+        "gross_profit": 4498.2,
+        "gross_margin_pct": 20.8
+      },
+      {
+        "discount_pct": 37.5,
+        "price": 124.99,
+        "projected_30d_demand": 1208.6,
+        "units_sold_30d": 180.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 22498.2,
+        "gross_profit": 5398.2,
+        "gross_margin_pct": 24.0
+      },
+      {
+        "discount_pct": 35.0,
+        "price": 129.99,
+        "projected_30d_demand": 1161.6,
+        "units_sold_30d": 180.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 23398.2,
+        "gross_profit": 6298.2,
+        "gross_margin_pct": 26.9
+      },
+      {
+        "discount_pct": 32.5,
+        "price": 134.99,
+        "projected_30d_demand": 1118.2,
+        "units_sold_30d": 180.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 24298.2,
+        "gross_profit": 7198.2,
+        "gross_margin_pct": 29.6
+      },
+      {
+        "discount_pct": 30.0,
+        "price": 139.99,
+        "projected_30d_demand": 1077.9,
+        "units_sold_30d": 180.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 25198.2,
+        "gross_profit": 8098.2,
+        "gross_margin_pct": 32.1
+      },
+      {
+        "discount_pct": 27.5,
+        "price": 144.99,
+        "projected_30d_demand": 1040.3,
+        "units_sold_30d": 180.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 26098.2,
+        "gross_profit": 8998.2,
+        "gross_margin_pct": 34.5
+      },
+      {
+        "discount_pct": 25.0,
+        "price": 149.99,
+        "projected_30d_demand": 1005.3,
+        "units_sold_30d": 180.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 26998.2,
+        "gross_profit": 9898.2,
+        "gross_margin_pct": 36.7
+      },
+      {
+        "discount_pct": 22.5,
+        "price": 154.99,
+        "projected_30d_demand": 972.6,
+        "units_sold_30d": 180.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 27898.2,
+        "gross_profit": 10798.2,
+        "gross_margin_pct": 38.7
+      },
+      {
+        "discount_pct": 20.0,
+        "price": 159.99,
+        "projected_30d_demand": 941.9,
+        "units_sold_30d": 180.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 28798.2,
+        "gross_profit": 11698.2,
+        "gross_margin_pct": 40.6
+      },
+      {
+        "discount_pct": 17.5,
+        "price": 164.99,
+        "projected_30d_demand": 913.0,
+        "units_sold_30d": 180.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 29698.2,
+        "gross_profit": 12598.2,
+        "gross_margin_pct": 42.4
+      },
+      {
+        "discount_pct": 15.0,
+        "price": 169.99,
+        "projected_30d_demand": 885.9,
+        "units_sold_30d": 180.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 30598.2,
+        "gross_profit": 13498.2,
+        "gross_margin_pct": 44.1
+      },
+      {
+        "discount_pct": 12.5,
+        "price": 174.99,
+        "projected_30d_demand": 860.4,
+        "units_sold_30d": 180.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 31498.2,
+        "gross_profit": 14398.2,
+        "gross_margin_pct": 45.7
+      },
+      {
+        "discount_pct": 10.0,
+        "price": 179.99,
+        "projected_30d_demand": 836.2,
+        "units_sold_30d": 180.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 32398.2,
+        "gross_profit": 15298.2,
+        "gross_margin_pct": 47.2
+      },
+      {
+        "discount_pct": 7.5,
+        "price": 184.99,
+        "projected_30d_demand": 813.4,
+        "units_sold_30d": 180.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 33298.2,
+        "gross_profit": 16198.2,
+        "gross_margin_pct": 48.6
+      },
+      {
+        "discount_pct": 5.0,
+        "price": 189.99,
+        "projected_30d_demand": 791.8,
+        "units_sold_30d": 180.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 34198.2,
+        "gross_profit": 17098.2,
+        "gross_margin_pct": 50.0
+      },
+      {
+        "discount_pct": 2.5,
+        "price": 194.99,
+        "projected_30d_demand": 771.3,
+        "units_sold_30d": 180.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 35098.2,
+        "gross_profit": 17998.2,
+        "gross_margin_pct": 51.3
+      },
+      {
+        "discount_pct": -0.0,
+        "price": 199.99,
+        "projected_30d_demand": 751.8,
+        "units_sold_30d": 180.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 35998.2,
+        "gross_profit": 18898.2,
+        "gross_margin_pct": 52.5
+      },
+      {
+        "discount_pct": -2.5,
+        "price": 204.99,
+        "projected_30d_demand": 733.3,
+        "units_sold_30d": 180.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 36898.2,
+        "gross_profit": 19798.2,
+        "gross_margin_pct": 53.7
+      },
+      {
+        "discount_pct": -5.0,
+        "price": 209.99,
+        "projected_30d_demand": 715.6,
+        "units_sold_30d": 180.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 37798.2,
+        "gross_profit": 20698.2,
+        "gross_margin_pct": 54.8
+      },
+      {
+        "discount_pct": -7.5,
+        "price": 214.99,
+        "projected_30d_demand": 698.8,
+        "units_sold_30d": 180.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 38698.2,
+        "gross_profit": 21598.2,
+        "gross_margin_pct": 55.8
+      },
+      {
+        "discount_pct": -10.0,
+        "price": 219.99,
+        "projected_30d_demand": 682.8,
+        "units_sold_30d": 180.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 39598.2,
+        "gross_profit": 22498.2,
+        "gross_margin_pct": 56.8
+      },
+      {
+        "discount_pct": -12.5,
+        "price": 224.99,
+        "projected_30d_demand": 667.5,
+        "units_sold_30d": 180.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 40498.2,
+        "gross_profit": 23398.2,
+        "gross_margin_pct": 57.8
+      },
+      {
+        "discount_pct": -15.0,
+        "price": 229.99,
+        "projected_30d_demand": 652.8,
+        "units_sold_30d": 180.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 41398.2,
+        "gross_profit": 24298.2,
+        "gross_margin_pct": 58.7
+      },
+      {
+        "discount_pct": -17.5,
+        "price": 234.99,
+        "projected_30d_demand": 638.8,
+        "units_sold_30d": 180.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 42298.2,
+        "gross_profit": 25198.2,
+        "gross_margin_pct": 59.6
+      },
+      {
+        "discount_pct": -20.0,
+        "price": 239.99,
+        "projected_30d_demand": 625.4,
+        "units_sold_30d": 180.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 43198.2,
+        "gross_profit": 26098.2,
+        "gross_margin_pct": 60.4
+      }
+    ],
+    "user_scenario": null
+  },
+  "ELEC-WATCH-200": {
+    "sku_id": "ELEC-WATCH-200",
+    "elasticity": -0.83,
+    "elasticity_label": "Moderately Elastic",
+    "current_price": 149.5,
+    "unit_cost": 68.0,
+    "current_stock": 210,
+    "days_of_inventory": 4.7,
+    "stockout_risk_status": "CRITICAL",
+    "recommended_action": "RAISE_PRICE_OR_EXPEDITE_REORDER",
+    "recommendation_text": "Low inventory runway (4.7 days). Limit markdowns or raise price to preserve margins and buffer stockout.",
+    "optimal_markdown_pct": 0.0,
+    "optimal_price": 149.5,
+    "sweep_curve": [
+      {
+        "discount_pct": 40.0,
+        "price": 89.7,
+        "projected_30d_demand": 2030.9,
+        "units_sold_30d": 210.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 18837.0,
+        "gross_profit": 4557.0,
+        "gross_margin_pct": 24.2
+      },
+      {
+        "discount_pct": 37.5,
+        "price": 93.44,
+        "projected_30d_demand": 1963.2,
+        "units_sold_30d": 210.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 19622.4,
+        "gross_profit": 5342.4,
+        "gross_margin_pct": 27.2
+      },
+      {
+        "discount_pct": 35.0,
+        "price": 97.17,
+        "projected_30d_demand": 1900.5,
+        "units_sold_30d": 210.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 20405.7,
+        "gross_profit": 6125.7,
+        "gross_margin_pct": 30.0
+      },
+      {
+        "discount_pct": 32.5,
+        "price": 100.91,
+        "projected_30d_demand": 1841.8,
+        "units_sold_30d": 210.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 21191.1,
+        "gross_profit": 6911.1,
+        "gross_margin_pct": 32.6
+      },
+      {
+        "discount_pct": 30.0,
+        "price": 104.65,
+        "projected_30d_demand": 1787.0,
+        "units_sold_30d": 210.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 21976.5,
+        "gross_profit": 7696.5,
+        "gross_margin_pct": 35.0
+      },
+      {
+        "discount_pct": 27.5,
+        "price": 108.39,
+        "projected_30d_demand": 1735.7,
+        "units_sold_30d": 210.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 22761.9,
+        "gross_profit": 8481.9,
+        "gross_margin_pct": 37.3
+      },
+      {
+        "discount_pct": 25.0,
+        "price": 112.12,
+        "projected_30d_demand": 1687.6,
+        "units_sold_30d": 210.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 23545.2,
+        "gross_profit": 9265.2,
+        "gross_margin_pct": 39.4
+      },
+      {
+        "discount_pct": 22.5,
+        "price": 115.86,
+        "projected_30d_demand": 1642.3,
+        "units_sold_30d": 210.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 24330.6,
+        "gross_profit": 10050.6,
+        "gross_margin_pct": 41.3
+      },
+      {
+        "discount_pct": 20.0,
+        "price": 119.6,
+        "projected_30d_demand": 1599.5,
+        "units_sold_30d": 210.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 25116.0,
+        "gross_profit": 10836.0,
+        "gross_margin_pct": 43.1
+      },
+      {
+        "discount_pct": 17.5,
+        "price": 123.34,
+        "projected_30d_demand": 1559.2,
+        "units_sold_30d": 210.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 25901.4,
+        "gross_profit": 11621.4,
+        "gross_margin_pct": 44.9
+      },
+      {
+        "discount_pct": 15.0,
+        "price": 127.08,
+        "projected_30d_demand": 1521.0,
+        "units_sold_30d": 210.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 26686.8,
+        "gross_profit": 12406.8,
+        "gross_margin_pct": 46.5
+      },
+      {
+        "discount_pct": 12.5,
+        "price": 130.81,
+        "projected_30d_demand": 1484.9,
+        "units_sold_30d": 210.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 27470.1,
+        "gross_profit": 13190.1,
+        "gross_margin_pct": 48.0
+      },
+      {
+        "discount_pct": 10.0,
+        "price": 134.55,
+        "projected_30d_demand": 1450.6,
+        "units_sold_30d": 210.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 28255.5,
+        "gross_profit": 13975.5,
+        "gross_margin_pct": 49.5
+      },
+      {
+        "discount_pct": 7.5,
+        "price": 138.29,
+        "projected_30d_demand": 1417.9,
+        "units_sold_30d": 210.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 29040.9,
+        "gross_profit": 14760.9,
+        "gross_margin_pct": 50.8
+      },
+      {
+        "discount_pct": 5.0,
+        "price": 142.02,
+        "projected_30d_demand": 1386.9,
+        "units_sold_30d": 210.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 29824.2,
+        "gross_profit": 15544.2,
+        "gross_margin_pct": 52.1
+      },
+      {
+        "discount_pct": 2.5,
+        "price": 145.76,
+        "projected_30d_demand": 1357.3,
+        "units_sold_30d": 210.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 30609.6,
+        "gross_profit": 16329.6,
+        "gross_margin_pct": 53.3
+      },
+      {
+        "discount_pct": -0.0,
+        "price": 149.5,
+        "projected_30d_demand": 1329.1,
+        "units_sold_30d": 210.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 31395.0,
+        "gross_profit": 17115.0,
+        "gross_margin_pct": 54.5
+      },
+      {
+        "discount_pct": -2.5,
+        "price": 153.24,
+        "projected_30d_demand": 1302.1,
+        "units_sold_30d": 210.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 32180.4,
+        "gross_profit": 17900.4,
+        "gross_margin_pct": 55.6
+      },
+      {
+        "discount_pct": -5.0,
+        "price": 156.98,
+        "projected_30d_demand": 1276.3,
+        "units_sold_30d": 210.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 32965.8,
+        "gross_profit": 18685.8,
+        "gross_margin_pct": 56.7
+      },
+      {
+        "discount_pct": -7.5,
+        "price": 160.71,
+        "projected_30d_demand": 1251.7,
+        "units_sold_30d": 210.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 33749.1,
+        "gross_profit": 19469.1,
+        "gross_margin_pct": 57.7
+      },
+      {
+        "discount_pct": -10.0,
+        "price": 164.45,
+        "projected_30d_demand": 1228.0,
+        "units_sold_30d": 210.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 34534.5,
+        "gross_profit": 20254.5,
+        "gross_margin_pct": 58.7
+      },
+      {
+        "discount_pct": -12.5,
+        "price": 168.19,
+        "projected_30d_demand": 1205.3,
+        "units_sold_30d": 210.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 35319.9,
+        "gross_profit": 21039.9,
+        "gross_margin_pct": 59.6
+      },
+      {
+        "discount_pct": -15.0,
+        "price": 171.92,
+        "projected_30d_demand": 1183.6,
+        "units_sold_30d": 210.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 36103.2,
+        "gross_profit": 21823.2,
+        "gross_margin_pct": 60.4
+      },
+      {
+        "discount_pct": -17.5,
+        "price": 175.66,
+        "projected_30d_demand": 1162.6,
+        "units_sold_30d": 210.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 36888.6,
+        "gross_profit": 22608.6,
+        "gross_margin_pct": 61.3
+      },
+      {
+        "discount_pct": -20.0,
+        "price": 179.4,
+        "projected_30d_demand": 1142.5,
+        "units_sold_30d": 210.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 37674.0,
+        "gross_profit": 23394.0,
+        "gross_margin_pct": 62.1
+      }
+    ],
+    "user_scenario": null
+  },
+  "ELEC-KEYB-300": {
+    "sku_id": "ELEC-KEYB-300",
+    "elasticity": -0.71,
+    "elasticity_label": "Moderately Elastic",
+    "current_price": 119.0,
+    "unit_cost": 48.0,
+    "current_stock": 75,
+    "days_of_inventory": 3.8,
+    "stockout_risk_status": "CRITICAL",
+    "recommended_action": "RAISE_PRICE_OR_EXPEDITE_REORDER",
+    "recommendation_text": "Low inventory runway (3.8 days). Limit markdowns or raise price to preserve margins and buffer stockout.",
+    "optimal_markdown_pct": 0.0,
+    "optimal_price": 119.0,
+    "sweep_curve": [
+      {
+        "discount_pct": 40.0,
+        "price": 71.4,
+        "projected_30d_demand": 861.2,
+        "units_sold_30d": 75.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 5355.0,
+        "gross_profit": 1755.0,
+        "gross_margin_pct": 32.8
+      },
+      {
+        "discount_pct": 37.5,
+        "price": 74.38,
+        "projected_30d_demand": 836.5,
+        "units_sold_30d": 75.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 5578.5,
+        "gross_profit": 1978.5,
+        "gross_margin_pct": 35.5
+      },
+      {
+        "discount_pct": 35.0,
+        "price": 77.35,
+        "projected_30d_demand": 813.6,
+        "units_sold_30d": 75.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 5801.25,
+        "gross_profit": 2201.25,
+        "gross_margin_pct": 37.9
+      },
+      {
+        "discount_pct": 32.5,
+        "price": 80.32,
+        "projected_30d_demand": 792.1,
+        "units_sold_30d": 75.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 6024.0,
+        "gross_profit": 2424.0,
+        "gross_margin_pct": 40.2
+      },
+      {
+        "discount_pct": 30.0,
+        "price": 83.3,
+        "projected_30d_demand": 771.9,
+        "units_sold_30d": 75.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 6247.5,
+        "gross_profit": 2647.5,
+        "gross_margin_pct": 42.4
+      },
+      {
+        "discount_pct": 27.5,
+        "price": 86.28,
+        "projected_30d_demand": 752.9,
+        "units_sold_30d": 75.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 6471.0,
+        "gross_profit": 2871.0,
+        "gross_margin_pct": 44.4
+      },
+      {
+        "discount_pct": 25.0,
+        "price": 89.25,
+        "projected_30d_demand": 735.0,
+        "units_sold_30d": 75.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 6693.75,
+        "gross_profit": 3093.75,
+        "gross_margin_pct": 46.2
+      },
+      {
+        "discount_pct": 22.5,
+        "price": 92.22,
+        "projected_30d_demand": 718.1,
+        "units_sold_30d": 75.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 6916.5,
+        "gross_profit": 3316.5,
+        "gross_margin_pct": 48.0
+      },
+      {
+        "discount_pct": 20.0,
+        "price": 95.2,
+        "projected_30d_demand": 702.1,
+        "units_sold_30d": 75.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 7140.0,
+        "gross_profit": 3540.0,
+        "gross_margin_pct": 49.6
+      },
+      {
+        "discount_pct": 17.5,
+        "price": 98.18,
+        "projected_30d_demand": 686.9,
+        "units_sold_30d": 75.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 7363.5,
+        "gross_profit": 3763.5,
+        "gross_margin_pct": 51.1
+      },
+      {
+        "discount_pct": 15.0,
+        "price": 101.15,
+        "projected_30d_demand": 672.5,
+        "units_sold_30d": 75.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 7586.25,
+        "gross_profit": 3986.25,
+        "gross_margin_pct": 52.5
+      },
+      {
+        "discount_pct": 12.5,
+        "price": 104.12,
+        "projected_30d_demand": 658.8,
+        "units_sold_30d": 75.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 7809.0,
+        "gross_profit": 4209.0,
+        "gross_margin_pct": 53.9
+      },
+      {
+        "discount_pct": 10.0,
+        "price": 107.1,
+        "projected_30d_demand": 645.7,
+        "units_sold_30d": 75.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 8032.5,
+        "gross_profit": 4432.5,
+        "gross_margin_pct": 55.2
+      },
+      {
+        "discount_pct": 7.5,
+        "price": 110.08,
+        "projected_30d_demand": 633.3,
+        "units_sold_30d": 75.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 8256.0,
+        "gross_profit": 4656.0,
+        "gross_margin_pct": 56.4
+      },
+      {
+        "discount_pct": 5.0,
+        "price": 113.05,
+        "projected_30d_demand": 621.4,
+        "units_sold_30d": 75.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 8478.75,
+        "gross_profit": 4878.75,
+        "gross_margin_pct": 57.5
+      },
+      {
+        "discount_pct": 2.5,
+        "price": 116.02,
+        "projected_30d_demand": 610.1,
+        "units_sold_30d": 75.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 8701.5,
+        "gross_profit": 5101.5,
+        "gross_margin_pct": 58.6
+      },
+      {
+        "discount_pct": -0.0,
+        "price": 119.0,
+        "projected_30d_demand": 599.2,
+        "units_sold_30d": 75.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 8925.0,
+        "gross_profit": 5325.0,
+        "gross_margin_pct": 59.7
+      },
+      {
+        "discount_pct": -2.5,
+        "price": 121.98,
+        "projected_30d_demand": 588.8,
+        "units_sold_30d": 75.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 9148.5,
+        "gross_profit": 5548.5,
+        "gross_margin_pct": 60.6
+      },
+      {
+        "discount_pct": -5.0,
+        "price": 124.95,
+        "projected_30d_demand": 578.8,
+        "units_sold_30d": 75.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 9371.25,
+        "gross_profit": 5771.25,
+        "gross_margin_pct": 61.6
+      },
+      {
+        "discount_pct": -7.5,
+        "price": 127.93,
+        "projected_30d_demand": 569.2,
+        "units_sold_30d": 75.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 9594.75,
+        "gross_profit": 5994.75,
+        "gross_margin_pct": 62.5
+      },
+      {
+        "discount_pct": -10.0,
+        "price": 130.9,
+        "projected_30d_demand": 560.0,
+        "units_sold_30d": 75.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 9817.5,
+        "gross_profit": 6217.5,
+        "gross_margin_pct": 63.3
+      },
+      {
+        "discount_pct": -12.5,
+        "price": 133.88,
+        "projected_30d_demand": 551.1,
+        "units_sold_30d": 75.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 10041.0,
+        "gross_profit": 6441.0,
+        "gross_margin_pct": 64.1
+      },
+      {
+        "discount_pct": -15.0,
+        "price": 136.85,
+        "projected_30d_demand": 542.6,
+        "units_sold_30d": 75.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 10263.75,
+        "gross_profit": 6663.75,
+        "gross_margin_pct": 64.9
+      },
+      {
+        "discount_pct": -17.5,
+        "price": 139.83,
+        "projected_30d_demand": 534.4,
+        "units_sold_30d": 75.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 10487.25,
+        "gross_profit": 6887.25,
+        "gross_margin_pct": 65.7
+      },
+      {
+        "discount_pct": -20.0,
+        "price": 142.8,
+        "projected_30d_demand": 526.4,
+        "units_sold_30d": 75.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 10710.0,
+        "gross_profit": 7110.0,
+        "gross_margin_pct": 66.4
+      }
+    ],
+    "user_scenario": null
+  },
+  "APPR-HOOD-400": {
+    "sku_id": "APPR-HOOD-400",
+    "elasticity": -1.2,
+    "elasticity_label": "Moderately Elastic",
+    "current_price": 78.0,
+    "unit_cost": 28.0,
+    "current_stock": 140,
+    "days_of_inventory": 2.7,
+    "stockout_risk_status": "CRITICAL",
+    "recommended_action": "RAISE_PRICE_OR_EXPEDITE_REORDER",
+    "recommendation_text": "Low inventory runway (2.7 days). Limit markdowns or raise price to preserve margins and buffer stockout.",
+    "optimal_markdown_pct": 0.0,
+    "optimal_price": 78.0,
+    "sweep_curve": [
+      {
+        "discount_pct": 40.0,
+        "price": 46.8,
+        "projected_30d_demand": 2892.4,
+        "units_sold_30d": 140.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 6552.0,
+        "gross_profit": 2632.0,
+        "gross_margin_pct": 40.2
+      },
+      {
+        "discount_pct": 37.5,
+        "price": 48.75,
+        "projected_30d_demand": 2754.1,
+        "units_sold_30d": 140.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 6825.0,
+        "gross_profit": 2905.0,
+        "gross_margin_pct": 42.6
+      },
+      {
+        "discount_pct": 35.0,
+        "price": 50.7,
+        "projected_30d_demand": 2627.5,
+        "units_sold_30d": 140.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 7098.0,
+        "gross_profit": 3178.0,
+        "gross_margin_pct": 44.8
+      },
+      {
+        "discount_pct": 32.5,
+        "price": 52.65,
+        "projected_30d_demand": 2511.2,
+        "units_sold_30d": 140.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 7371.0,
+        "gross_profit": 3451.0,
+        "gross_margin_pct": 46.8
+      },
+      {
+        "discount_pct": 30.0,
+        "price": 54.6,
+        "projected_30d_demand": 2403.9,
+        "units_sold_30d": 140.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 7644.0,
+        "gross_profit": 3724.0,
+        "gross_margin_pct": 48.7
+      },
+      {
+        "discount_pct": 27.5,
+        "price": 56.55,
+        "projected_30d_demand": 2304.8,
+        "units_sold_30d": 140.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 7917.0,
+        "gross_profit": 3997.0,
+        "gross_margin_pct": 50.5
+      },
+      {
+        "discount_pct": 25.0,
+        "price": 58.5,
+        "projected_30d_demand": 2212.9,
+        "units_sold_30d": 140.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 8190.0,
+        "gross_profit": 4270.0,
+        "gross_margin_pct": 52.1
+      },
+      {
+        "discount_pct": 22.5,
+        "price": 60.45,
+        "projected_30d_demand": 2127.5,
+        "units_sold_30d": 140.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 8463.0,
+        "gross_profit": 4543.0,
+        "gross_margin_pct": 53.7
+      },
+      {
+        "discount_pct": 20.0,
+        "price": 62.4,
+        "projected_30d_demand": 2048.0,
+        "units_sold_30d": 140.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 8736.0,
+        "gross_profit": 4816.0,
+        "gross_margin_pct": 55.1
+      },
+      {
+        "discount_pct": 17.5,
+        "price": 64.35,
+        "projected_30d_demand": 1973.8,
+        "units_sold_30d": 140.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 9009.0,
+        "gross_profit": 5089.0,
+        "gross_margin_pct": 56.5
+      },
+      {
+        "discount_pct": 15.0,
+        "price": 66.3,
+        "projected_30d_demand": 1904.3,
+        "units_sold_30d": 140.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 9282.0,
+        "gross_profit": 5362.0,
+        "gross_margin_pct": 57.8
+      },
+      {
+        "discount_pct": 12.5,
+        "price": 68.25,
+        "projected_30d_demand": 1839.2,
+        "units_sold_30d": 140.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 9555.0,
+        "gross_profit": 5635.0,
+        "gross_margin_pct": 59.0
+      },
+      {
+        "discount_pct": 10.0,
+        "price": 70.2,
+        "projected_30d_demand": 1778.1,
+        "units_sold_30d": 140.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 9828.0,
+        "gross_profit": 5908.0,
+        "gross_margin_pct": 60.1
+      },
+      {
+        "discount_pct": 7.5,
+        "price": 72.15,
+        "projected_30d_demand": 1720.6,
+        "units_sold_30d": 140.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 10101.0,
+        "gross_profit": 6181.0,
+        "gross_margin_pct": 61.2
+      },
+      {
+        "discount_pct": 5.0,
+        "price": 74.1,
+        "projected_30d_demand": 1666.4,
+        "units_sold_30d": 140.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 10374.0,
+        "gross_profit": 6454.0,
+        "gross_margin_pct": 62.2
+      },
+      {
+        "discount_pct": 2.5,
+        "price": 76.05,
+        "projected_30d_demand": 1615.2,
+        "units_sold_30d": 140.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 10647.0,
+        "gross_profit": 6727.0,
+        "gross_margin_pct": 63.2
+      },
+      {
+        "discount_pct": -0.0,
+        "price": 78.0,
+        "projected_30d_demand": 1566.9,
+        "units_sold_30d": 140.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 10920.0,
+        "gross_profit": 7000.0,
+        "gross_margin_pct": 64.1
+      },
+      {
+        "discount_pct": -2.5,
+        "price": 79.95,
+        "projected_30d_demand": 1521.2,
+        "units_sold_30d": 140.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 11193.0,
+        "gross_profit": 7273.0,
+        "gross_margin_pct": 65.0
+      },
+      {
+        "discount_pct": -5.0,
+        "price": 81.9,
+        "projected_30d_demand": 1477.8,
+        "units_sold_30d": 140.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 11466.0,
+        "gross_profit": 7546.0,
+        "gross_margin_pct": 65.8
+      },
+      {
+        "discount_pct": -7.5,
+        "price": 83.85,
+        "projected_30d_demand": 1436.7,
+        "units_sold_30d": 140.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 11739.0,
+        "gross_profit": 7819.0,
+        "gross_margin_pct": 66.6
+      },
+      {
+        "discount_pct": -10.0,
+        "price": 85.8,
+        "projected_30d_demand": 1397.6,
+        "units_sold_30d": 140.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 12012.0,
+        "gross_profit": 8092.0,
+        "gross_margin_pct": 67.4
+      },
+      {
+        "discount_pct": -12.5,
+        "price": 87.75,
+        "projected_30d_demand": 1360.4,
+        "units_sold_30d": 140.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 12285.0,
+        "gross_profit": 8365.0,
+        "gross_margin_pct": 68.1
+      },
+      {
+        "discount_pct": -15.0,
+        "price": 89.7,
+        "projected_30d_demand": 1325.0,
+        "units_sold_30d": 140.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 12558.0,
+        "gross_profit": 8638.0,
+        "gross_margin_pct": 68.8
+      },
+      {
+        "discount_pct": -17.5,
+        "price": 91.65,
+        "projected_30d_demand": 1291.2,
+        "units_sold_30d": 140.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 12831.0,
+        "gross_profit": 8911.0,
+        "gross_margin_pct": 69.4
+      },
+      {
+        "discount_pct": -20.0,
+        "price": 93.6,
+        "projected_30d_demand": 1259.0,
+        "units_sold_30d": 140.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 13104.0,
+        "gross_profit": 9184.0,
+        "gross_margin_pct": 70.1
+      }
+    ],
+    "user_scenario": null
+  },
+  "APPR-SHOE-500": {
+    "sku_id": "APPR-SHOE-500",
+    "elasticity": -0.92,
+    "elasticity_label": "Moderately Elastic",
+    "current_price": 165.0,
+    "unit_cost": 62.0,
+    "current_stock": 92,
+    "days_of_inventory": 2.9,
+    "stockout_risk_status": "CRITICAL",
+    "recommended_action": "RAISE_PRICE_OR_EXPEDITE_REORDER",
+    "recommendation_text": "Low inventory runway (2.9 days). Limit markdowns or raise price to preserve margins and buffer stockout.",
+    "optimal_markdown_pct": 0.0,
+    "optimal_price": 165.0,
+    "sweep_curve": [
+      {
+        "discount_pct": 40.0,
+        "price": 99.0,
+        "projected_30d_demand": 1544.7,
+        "units_sold_30d": 92.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 9108.0,
+        "gross_profit": 3404.0,
+        "gross_margin_pct": 37.4
+      },
+      {
+        "discount_pct": 37.5,
+        "price": 103.12,
+        "projected_30d_demand": 1487.9,
+        "units_sold_30d": 92.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 9487.04,
+        "gross_profit": 3783.04,
+        "gross_margin_pct": 39.9
+      },
+      {
+        "discount_pct": 35.0,
+        "price": 107.25,
+        "projected_30d_demand": 1435.1,
+        "units_sold_30d": 92.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 9867.0,
+        "gross_profit": 4163.0,
+        "gross_margin_pct": 42.2
+      },
+      {
+        "discount_pct": 32.5,
+        "price": 111.38,
+        "projected_30d_demand": 1386.0,
+        "units_sold_30d": 92.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 10246.96,
+        "gross_profit": 4542.96,
+        "gross_margin_pct": 44.3
+      },
+      {
+        "discount_pct": 30.0,
+        "price": 115.5,
+        "projected_30d_demand": 1340.5,
+        "units_sold_30d": 92.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 10626.0,
+        "gross_profit": 4922.0,
+        "gross_margin_pct": 46.3
+      },
+      {
+        "discount_pct": 27.5,
+        "price": 119.62,
+        "projected_30d_demand": 1298.0,
+        "units_sold_30d": 92.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 11005.04,
+        "gross_profit": 5301.04,
+        "gross_margin_pct": 48.2
+      },
+      {
+        "discount_pct": 25.0,
+        "price": 123.75,
+        "projected_30d_demand": 1258.0,
+        "units_sold_30d": 92.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 11385.0,
+        "gross_profit": 5681.0,
+        "gross_margin_pct": 49.9
+      },
+      {
+        "discount_pct": 22.5,
+        "price": 127.88,
+        "projected_30d_demand": 1220.6,
+        "units_sold_30d": 92.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 11764.96,
+        "gross_profit": 6060.96,
+        "gross_margin_pct": 51.5
+      },
+      {
+        "discount_pct": 20.0,
+        "price": 132.0,
+        "projected_30d_demand": 1185.5,
+        "units_sold_30d": 92.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 12144.0,
+        "gross_profit": 6440.0,
+        "gross_margin_pct": 53.0
+      },
+      {
+        "discount_pct": 17.5,
+        "price": 136.12,
+        "projected_30d_demand": 1152.5,
+        "units_sold_30d": 92.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 12523.04,
+        "gross_profit": 6819.04,
+        "gross_margin_pct": 54.5
+      },
+      {
+        "discount_pct": 15.0,
+        "price": 140.25,
+        "projected_30d_demand": 1121.2,
+        "units_sold_30d": 92.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 12903.0,
+        "gross_profit": 7199.0,
+        "gross_margin_pct": 55.8
+      },
+      {
+        "discount_pct": 12.5,
+        "price": 144.38,
+        "projected_30d_demand": 1091.7,
+        "units_sold_30d": 92.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 13282.96,
+        "gross_profit": 7578.96,
+        "gross_margin_pct": 57.1
+      },
+      {
+        "discount_pct": 10.0,
+        "price": 148.5,
+        "projected_30d_demand": 1063.8,
+        "units_sold_30d": 92.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 13662.0,
+        "gross_profit": 7958.0,
+        "gross_margin_pct": 58.2
+      },
+      {
+        "discount_pct": 7.5,
+        "price": 152.62,
+        "projected_30d_demand": 1037.3,
+        "units_sold_30d": 92.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 14041.04,
+        "gross_profit": 8337.04,
+        "gross_margin_pct": 59.4
+      },
+      {
+        "discount_pct": 5.0,
+        "price": 156.75,
+        "projected_30d_demand": 1012.2,
+        "units_sold_30d": 92.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 14421.0,
+        "gross_profit": 8717.0,
+        "gross_margin_pct": 60.4
+      },
+      {
+        "discount_pct": 2.5,
+        "price": 160.88,
+        "projected_30d_demand": 988.2,
+        "units_sold_30d": 92.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 14800.96,
+        "gross_profit": 9096.96,
+        "gross_margin_pct": 61.5
+      },
+      {
+        "discount_pct": -0.0,
+        "price": 165.0,
+        "projected_30d_demand": 965.5,
+        "units_sold_30d": 92.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 15180.0,
+        "gross_profit": 9476.0,
+        "gross_margin_pct": 62.4
+      },
+      {
+        "discount_pct": -2.5,
+        "price": 169.13,
+        "projected_30d_demand": 943.8,
+        "units_sold_30d": 92.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 15559.96,
+        "gross_profit": 9855.96,
+        "gross_margin_pct": 63.3
+      },
+      {
+        "discount_pct": -5.0,
+        "price": 173.25,
+        "projected_30d_demand": 923.1,
+        "units_sold_30d": 92.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 15939.0,
+        "gross_profit": 10235.0,
+        "gross_margin_pct": 64.2
+      },
+      {
+        "discount_pct": -7.5,
+        "price": 177.38,
+        "projected_30d_demand": 903.3,
+        "units_sold_30d": 92.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 16318.96,
+        "gross_profit": 10614.96,
+        "gross_margin_pct": 65.0
+      },
+      {
+        "discount_pct": -10.0,
+        "price": 181.5,
+        "projected_30d_demand": 884.4,
+        "units_sold_30d": 92.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 16698.0,
+        "gross_profit": 10994.0,
+        "gross_margin_pct": 65.8
+      },
+      {
+        "discount_pct": -12.5,
+        "price": 185.62,
+        "projected_30d_demand": 866.4,
+        "units_sold_30d": 92.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 17077.04,
+        "gross_profit": 11373.04,
+        "gross_margin_pct": 66.6
+      },
+      {
+        "discount_pct": -15.0,
+        "price": 189.75,
+        "projected_30d_demand": 849.0,
+        "units_sold_30d": 92.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 17457.0,
+        "gross_profit": 11753.0,
+        "gross_margin_pct": 67.3
+      },
+      {
+        "discount_pct": -17.5,
+        "price": 193.88,
+        "projected_30d_demand": 832.4,
+        "units_sold_30d": 92.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 17836.96,
+        "gross_profit": 12132.96,
+        "gross_margin_pct": 68.0
+      },
+      {
+        "discount_pct": -20.0,
+        "price": 198.0,
+        "projected_30d_demand": 816.4,
+        "units_sold_30d": 92.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 18216.0,
+        "gross_profit": 12512.0,
+        "gross_margin_pct": 68.7
+      }
+    ],
+    "user_scenario": null
+  },
+  "APPR-JACK-600": {
+    "sku_id": "APPR-JACK-600",
+    "elasticity": -1.04,
+    "elasticity_label": "Moderately Elastic",
+    "current_price": 140.0,
+    "unit_cost": 54.0,
+    "current_stock": 580,
+    "days_of_inventory": 39.3,
+    "stockout_risk_status": "HEALTHY",
+    "recommended_action": "MAINTAIN_CURRENT_PRICE",
+    "recommendation_text": "Inventory levels and velocity are in equilibrium. Keep baseline pricing.",
+    "optimal_markdown_pct": 0.0,
+    "optimal_price": 140.0,
+    "sweep_curve": [
+      {
+        "discount_pct": 40.0,
+        "price": 84.0,
+        "projected_30d_demand": 752.9,
+        "units_sold_30d": 580.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 48720.0,
+        "gross_profit": 17400.0,
+        "gross_margin_pct": 35.7
+      },
+      {
+        "discount_pct": 37.5,
+        "price": 87.5,
+        "projected_30d_demand": 721.6,
+        "units_sold_30d": 580.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 50750.0,
+        "gross_profit": 19430.0,
+        "gross_margin_pct": 38.3
+      },
+      {
+        "discount_pct": 35.0,
+        "price": 91.0,
+        "projected_30d_demand": 692.8,
+        "units_sold_30d": 580.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 52780.0,
+        "gross_profit": 21460.0,
+        "gross_margin_pct": 40.7
+      },
+      {
+        "discount_pct": 32.5,
+        "price": 94.5,
+        "projected_30d_demand": 666.1,
+        "units_sold_30d": 580.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 54810.0,
+        "gross_profit": 23490.0,
+        "gross_margin_pct": 42.9
+      },
+      {
+        "discount_pct": 30.0,
+        "price": 98.0,
+        "projected_30d_demand": 641.4,
+        "units_sold_30d": 580.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 56840.0,
+        "gross_profit": 25520.0,
+        "gross_margin_pct": 44.9
+      },
+      {
+        "discount_pct": 27.5,
+        "price": 101.5,
+        "projected_30d_demand": 618.4,
+        "units_sold_30d": 580.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 58870.0,
+        "gross_profit": 27550.0,
+        "gross_margin_pct": 46.8
+      },
+      {
+        "discount_pct": 25.0,
+        "price": 105.0,
+        "projected_30d_demand": 597.0,
+        "units_sold_30d": 580.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 60900.0,
+        "gross_profit": 29580.0,
+        "gross_margin_pct": 48.6
+      },
+      {
+        "discount_pct": 22.5,
+        "price": 108.5,
+        "projected_30d_demand": 576.9,
+        "units_sold_30d": 576.9,
+        "remaining_stock": 3.1,
+        "projected_revenue": 62599.0,
+        "gross_profit": 31439.95,
+        "gross_margin_pct": 50.2
+      },
+      {
+        "discount_pct": 20.0,
+        "price": 112.0,
+        "projected_30d_demand": 558.2,
+        "units_sold_30d": 558.2,
+        "remaining_stock": 21.8,
+        "projected_revenue": 62519.55,
+        "gross_profit": 32349.12,
+        "gross_margin_pct": 51.8
+      },
+      {
+        "discount_pct": 17.5,
+        "price": 115.5,
+        "projected_30d_demand": 540.6,
+        "units_sold_30d": 540.6,
+        "remaining_stock": 39.4,
+        "projected_revenue": 62442.64,
+        "gross_profit": 33199.75,
+        "gross_margin_pct": 53.2
+      },
+      {
+        "discount_pct": 15.0,
+        "price": 119.0,
+        "projected_30d_demand": 524.1,
+        "units_sold_30d": 524.1,
+        "remaining_stock": 55.9,
+        "projected_revenue": 62368.13,
+        "gross_profit": 33997.16,
+        "gross_margin_pct": 54.6
+      },
+      {
+        "discount_pct": 12.5,
+        "price": 122.5,
+        "projected_30d_demand": 508.5,
+        "units_sold_30d": 508.5,
+        "remaining_stock": 71.5,
+        "projected_revenue": 62295.85,
+        "gross_profit": 34746.01,
+        "gross_margin_pct": 55.9
+      },
+      {
+        "discount_pct": 10.0,
+        "price": 126.0,
+        "projected_30d_demand": 493.9,
+        "units_sold_30d": 493.9,
+        "remaining_stock": 86.1,
+        "projected_revenue": 62225.69,
+        "gross_profit": 35450.48,
+        "gross_margin_pct": 57.1
+      },
+      {
+        "discount_pct": 7.5,
+        "price": 129.5,
+        "projected_30d_demand": 480.0,
+        "units_sold_30d": 480.0,
+        "remaining_stock": 100.0,
+        "projected_revenue": 62157.53,
+        "gross_profit": 36114.26,
+        "gross_margin_pct": 58.3
+      },
+      {
+        "discount_pct": 5.0,
+        "price": 133.0,
+        "projected_30d_demand": 466.9,
+        "units_sold_30d": 466.9,
+        "remaining_stock": 113.1,
+        "projected_revenue": 62091.26,
+        "gross_profit": 36740.66,
+        "gross_margin_pct": 59.4
+      },
+      {
+        "discount_pct": 2.5,
+        "price": 136.5,
+        "projected_30d_demand": 454.4,
+        "units_sold_30d": 454.4,
+        "remaining_stock": 125.6,
+        "projected_revenue": 62026.78,
+        "gross_profit": 37332.63,
+        "gross_margin_pct": 60.4
+      },
+      {
+        "discount_pct": -0.0,
+        "price": 140.0,
+        "projected_30d_demand": 442.6,
+        "units_sold_30d": 442.6,
+        "remaining_stock": 137.4,
+        "projected_revenue": 61964.0,
+        "gross_profit": 37892.85,
+        "gross_margin_pct": 61.4
+      },
+      {
+        "discount_pct": -2.5,
+        "price": 143.5,
+        "projected_30d_demand": 431.4,
+        "units_sold_30d": 431.4,
+        "remaining_stock": 148.6,
+        "projected_revenue": 61902.83,
+        "gross_profit": 38423.69,
+        "gross_margin_pct": 62.4
+      },
+      {
+        "discount_pct": -5.0,
+        "price": 147.0,
+        "projected_30d_demand": 420.7,
+        "units_sold_30d": 420.7,
+        "remaining_stock": 159.3,
+        "projected_revenue": 61843.19,
+        "gross_profit": 38927.31,
+        "gross_margin_pct": 63.3
+      },
+      {
+        "discount_pct": -7.5,
+        "price": 150.5,
+        "projected_30d_demand": 410.5,
+        "units_sold_30d": 410.5,
+        "remaining_stock": 169.5,
+        "projected_revenue": 61785.01,
+        "gross_profit": 39405.69,
+        "gross_margin_pct": 64.1
+      },
+      {
+        "discount_pct": -10.0,
+        "price": 154.0,
+        "projected_30d_demand": 400.8,
+        "units_sold_30d": 400.8,
+        "remaining_stock": 179.2,
+        "projected_revenue": 61728.22,
+        "gross_profit": 39860.6,
+        "gross_margin_pct": 64.9
+      },
+      {
+        "discount_pct": -12.5,
+        "price": 157.5,
+        "projected_30d_demand": 391.6,
+        "units_sold_30d": 391.6,
+        "remaining_stock": 188.4,
+        "projected_revenue": 61672.75,
+        "gross_profit": 40293.64,
+        "gross_margin_pct": 65.7
+      },
+      {
+        "discount_pct": -15.0,
+        "price": 161.0,
+        "projected_30d_demand": 382.7,
+        "units_sold_30d": 382.7,
+        "remaining_stock": 197.3,
+        "projected_revenue": 61618.56,
+        "gross_profit": 40706.31,
+        "gross_margin_pct": 66.5
+      },
+      {
+        "discount_pct": -17.5,
+        "price": 164.5,
+        "projected_30d_demand": 374.3,
+        "units_sold_30d": 374.3,
+        "remaining_stock": 205.7,
+        "projected_revenue": 61565.57,
+        "gross_profit": 41099.91,
+        "gross_margin_pct": 67.2
+      },
+      {
+        "discount_pct": -20.0,
+        "price": 168.0,
+        "projected_30d_demand": 366.2,
+        "units_sold_30d": 366.2,
+        "remaining_stock": 213.8,
+        "projected_revenue": 61513.75,
+        "gross_profit": 41475.71,
+        "gross_margin_pct": 67.9
+      }
+    ],
+    "user_scenario": null
+  },
+  "HOME-ESPR-700": {
+    "sku_id": "HOME-ESPR-700",
+    "elasticity": -0.75,
+    "elasticity_label": "Moderately Elastic",
+    "current_price": 389.0,
+    "unit_cost": 185.0,
+    "current_stock": 48,
+    "days_of_inventory": 4.0,
+    "stockout_risk_status": "CRITICAL",
+    "recommended_action": "RAISE_PRICE_OR_EXPEDITE_REORDER",
+    "recommendation_text": "Low inventory runway (4.0 days). Limit markdowns or raise price to preserve margins and buffer stockout.",
+    "optimal_markdown_pct": 0.0,
+    "optimal_price": 389.0,
+    "sweep_curve": [
+      {
+        "discount_pct": 40.0,
+        "price": 233.4,
+        "projected_30d_demand": 533.9,
+        "units_sold_30d": 48.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 11203.2,
+        "gross_profit": 2323.2,
+        "gross_margin_pct": 20.7
+      },
+      {
+        "discount_pct": 37.5,
+        "price": 243.12,
+        "projected_30d_demand": 517.8,
+        "units_sold_30d": 48.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 11669.76,
+        "gross_profit": 2789.76,
+        "gross_margin_pct": 23.9
+      },
+      {
+        "discount_pct": 35.0,
+        "price": 252.85,
+        "projected_30d_demand": 502.8,
+        "units_sold_30d": 48.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 12136.8,
+        "gross_profit": 3256.8,
+        "gross_margin_pct": 26.8
+      },
+      {
+        "discount_pct": 32.5,
+        "price": 262.58,
+        "projected_30d_demand": 488.8,
+        "units_sold_30d": 48.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 12603.84,
+        "gross_profit": 3723.84,
+        "gross_margin_pct": 29.5
+      },
+      {
+        "discount_pct": 30.0,
+        "price": 272.3,
+        "projected_30d_demand": 475.6,
+        "units_sold_30d": 48.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 13070.4,
+        "gross_profit": 4190.4,
+        "gross_margin_pct": 32.1
+      },
+      {
+        "discount_pct": 27.5,
+        "price": 282.02,
+        "projected_30d_demand": 463.3,
+        "units_sold_30d": 48.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 13536.96,
+        "gross_profit": 4656.96,
+        "gross_margin_pct": 34.4
+      },
+      {
+        "discount_pct": 25.0,
+        "price": 291.75,
+        "projected_30d_demand": 451.7,
+        "units_sold_30d": 48.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 14004.0,
+        "gross_profit": 5124.0,
+        "gross_margin_pct": 36.6
+      },
+      {
+        "discount_pct": 22.5,
+        "price": 301.48,
+        "projected_30d_demand": 440.7,
+        "units_sold_30d": 48.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 14471.04,
+        "gross_profit": 5591.04,
+        "gross_margin_pct": 38.6
+      },
+      {
+        "discount_pct": 20.0,
+        "price": 311.2,
+        "projected_30d_demand": 430.3,
+        "units_sold_30d": 48.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 14937.6,
+        "gross_profit": 6057.6,
+        "gross_margin_pct": 40.6
+      },
+      {
+        "discount_pct": 17.5,
+        "price": 320.92,
+        "projected_30d_demand": 420.5,
+        "units_sold_30d": 48.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 15404.16,
+        "gross_profit": 6524.16,
+        "gross_margin_pct": 42.4
+      },
+      {
+        "discount_pct": 15.0,
+        "price": 330.65,
+        "projected_30d_demand": 411.2,
+        "units_sold_30d": 48.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 15871.2,
+        "gross_profit": 6991.2,
+        "gross_margin_pct": 44.0
+      },
+      {
+        "discount_pct": 12.5,
+        "price": 340.38,
+        "projected_30d_demand": 402.3,
+        "units_sold_30d": 48.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 16338.24,
+        "gross_profit": 7458.24,
+        "gross_margin_pct": 45.6
+      },
+      {
+        "discount_pct": 10.0,
+        "price": 350.1,
+        "projected_30d_demand": 393.9,
+        "units_sold_30d": 48.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 16804.8,
+        "gross_profit": 7924.8,
+        "gross_margin_pct": 47.2
+      },
+      {
+        "discount_pct": 7.5,
+        "price": 359.83,
+        "projected_30d_demand": 385.9,
+        "units_sold_30d": 48.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 17271.84,
+        "gross_profit": 8391.84,
+        "gross_margin_pct": 48.6
+      },
+      {
+        "discount_pct": 5.0,
+        "price": 369.55,
+        "projected_30d_demand": 378.3,
+        "units_sold_30d": 48.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 17738.4,
+        "gross_profit": 8858.4,
+        "gross_margin_pct": 49.9
+      },
+      {
+        "discount_pct": 2.5,
+        "price": 379.28,
+        "projected_30d_demand": 371.0,
+        "units_sold_30d": 48.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 18205.44,
+        "gross_profit": 9325.44,
+        "gross_margin_pct": 51.2
+      },
+      {
+        "discount_pct": -0.0,
+        "price": 389.0,
+        "projected_30d_demand": 364.0,
+        "units_sold_30d": 48.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 18672.0,
+        "gross_profit": 9792.0,
+        "gross_margin_pct": 52.4
+      },
+      {
+        "discount_pct": -2.5,
+        "price": 398.73,
+        "projected_30d_demand": 357.3,
+        "units_sold_30d": 48.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 19139.04,
+        "gross_profit": 10259.04,
+        "gross_margin_pct": 53.6
+      },
+      {
+        "discount_pct": -5.0,
+        "price": 408.45,
+        "projected_30d_demand": 350.9,
+        "units_sold_30d": 48.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 19605.6,
+        "gross_profit": 10725.6,
+        "gross_margin_pct": 54.7
+      },
+      {
+        "discount_pct": -7.5,
+        "price": 418.18,
+        "projected_30d_demand": 344.8,
+        "units_sold_30d": 48.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 20072.64,
+        "gross_profit": 11192.64,
+        "gross_margin_pct": 55.8
+      },
+      {
+        "discount_pct": -10.0,
+        "price": 427.9,
+        "projected_30d_demand": 338.9,
+        "units_sold_30d": 48.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 20539.2,
+        "gross_profit": 11659.2,
+        "gross_margin_pct": 56.8
+      },
+      {
+        "discount_pct": -12.5,
+        "price": 437.62,
+        "projected_30d_demand": 333.2,
+        "units_sold_30d": 48.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 21005.76,
+        "gross_profit": 12125.76,
+        "gross_margin_pct": 57.7
+      },
+      {
+        "discount_pct": -15.0,
+        "price": 447.35,
+        "projected_30d_demand": 327.8,
+        "units_sold_30d": 48.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 21472.8,
+        "gross_profit": 12592.8,
+        "gross_margin_pct": 58.6
+      },
+      {
+        "discount_pct": -17.5,
+        "price": 457.08,
+        "projected_30d_demand": 322.5,
+        "units_sold_30d": 48.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 21939.84,
+        "gross_profit": 13059.84,
+        "gross_margin_pct": 59.5
+      },
+      {
+        "discount_pct": -20.0,
+        "price": 466.8,
+        "projected_30d_demand": 317.5,
+        "units_sold_30d": 48.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 22406.4,
+        "gross_profit": 13526.4,
+        "gross_margin_pct": 60.4
+      }
+    ],
+    "user_scenario": null
+  },
+  "HOME-AIRP-800": {
+    "sku_id": "HOME-AIRP-800",
+    "elasticity": -0.6,
+    "elasticity_label": "Moderately Elastic",
+    "current_price": 129.99,
+    "unit_cost": 52.0,
+    "current_stock": 85,
+    "days_of_inventory": 3.3,
+    "stockout_risk_status": "CRITICAL",
+    "recommended_action": "RAISE_PRICE_OR_EXPEDITE_REORDER",
+    "recommendation_text": "Low inventory runway (3.3 days). Limit markdowns or raise price to preserve margins and buffer stockout.",
+    "optimal_markdown_pct": 0.0,
+    "optimal_price": 129.99,
+    "sweep_curve": [
+      {
+        "discount_pct": 40.0,
+        "price": 77.99,
+        "projected_30d_demand": 1055.8,
+        "units_sold_30d": 85.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 6629.15,
+        "gross_profit": 2209.15,
+        "gross_margin_pct": 33.3
+      },
+      {
+        "discount_pct": 37.5,
+        "price": 81.24,
+        "projected_30d_demand": 1030.3,
+        "units_sold_30d": 85.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 6905.4,
+        "gross_profit": 2485.4,
+        "gross_margin_pct": 36.0
+      },
+      {
+        "discount_pct": 35.0,
+        "price": 84.49,
+        "projected_30d_demand": 1006.3,
+        "units_sold_30d": 85.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 7181.65,
+        "gross_profit": 2761.65,
+        "gross_margin_pct": 38.5
+      },
+      {
+        "discount_pct": 32.5,
+        "price": 87.74,
+        "projected_30d_demand": 983.8,
+        "units_sold_30d": 85.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 7457.9,
+        "gross_profit": 3037.9,
+        "gross_margin_pct": 40.7
+      },
+      {
+        "discount_pct": 30.0,
+        "price": 90.99,
+        "projected_30d_demand": 962.6,
+        "units_sold_30d": 85.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 7734.15,
+        "gross_profit": 3314.15,
+        "gross_margin_pct": 42.9
+      },
+      {
+        "discount_pct": 27.5,
+        "price": 94.24,
+        "projected_30d_demand": 942.5,
+        "units_sold_30d": 85.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 8010.4,
+        "gross_profit": 3590.4,
+        "gross_margin_pct": 44.8
+      },
+      {
+        "discount_pct": 25.0,
+        "price": 97.49,
+        "projected_30d_demand": 923.5,
+        "units_sold_30d": 85.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 8286.65,
+        "gross_profit": 3866.65,
+        "gross_margin_pct": 46.7
+      },
+      {
+        "discount_pct": 22.5,
+        "price": 100.74,
+        "projected_30d_demand": 905.5,
+        "units_sold_30d": 85.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 8562.9,
+        "gross_profit": 4142.9,
+        "gross_margin_pct": 48.4
+      },
+      {
+        "discount_pct": 20.0,
+        "price": 103.99,
+        "projected_30d_demand": 888.4,
+        "units_sold_30d": 85.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 8839.15,
+        "gross_profit": 4419.15,
+        "gross_margin_pct": 50.0
+      },
+      {
+        "discount_pct": 17.5,
+        "price": 107.24,
+        "projected_30d_demand": 872.2,
+        "units_sold_30d": 85.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 9115.4,
+        "gross_profit": 4695.4,
+        "gross_margin_pct": 51.5
+      },
+      {
+        "discount_pct": 15.0,
+        "price": 110.49,
+        "projected_30d_demand": 856.7,
+        "units_sold_30d": 85.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 9391.65,
+        "gross_profit": 4971.65,
+        "gross_margin_pct": 52.9
+      },
+      {
+        "discount_pct": 12.5,
+        "price": 113.74,
+        "projected_30d_demand": 841.9,
+        "units_sold_30d": 85.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 9667.9,
+        "gross_profit": 5247.9,
+        "gross_margin_pct": 54.3
+      },
+      {
+        "discount_pct": 10.0,
+        "price": 116.99,
+        "projected_30d_demand": 827.8,
+        "units_sold_30d": 85.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 9944.15,
+        "gross_profit": 5524.15,
+        "gross_margin_pct": 55.6
+      },
+      {
+        "discount_pct": 7.5,
+        "price": 120.24,
+        "projected_30d_demand": 814.3,
+        "units_sold_30d": 85.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 10220.4,
+        "gross_profit": 5800.4,
+        "gross_margin_pct": 56.8
+      },
+      {
+        "discount_pct": 5.0,
+        "price": 123.49,
+        "projected_30d_demand": 801.4,
+        "units_sold_30d": 85.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 10496.65,
+        "gross_profit": 6076.65,
+        "gross_margin_pct": 57.9
+      },
+      {
+        "discount_pct": 2.5,
+        "price": 126.74,
+        "projected_30d_demand": 789.0,
+        "units_sold_30d": 85.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 10772.9,
+        "gross_profit": 6352.9,
+        "gross_margin_pct": 59.0
+      },
+      {
+        "discount_pct": -0.0,
+        "price": 129.99,
+        "projected_30d_demand": 777.1,
+        "units_sold_30d": 85.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 11049.15,
+        "gross_profit": 6629.15,
+        "gross_margin_pct": 60.0
+      },
+      {
+        "discount_pct": -2.5,
+        "price": 133.24,
+        "projected_30d_demand": 765.7,
+        "units_sold_30d": 85.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 11325.4,
+        "gross_profit": 6905.4,
+        "gross_margin_pct": 61.0
+      },
+      {
+        "discount_pct": -5.0,
+        "price": 136.49,
+        "projected_30d_demand": 754.7,
+        "units_sold_30d": 85.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 11601.65,
+        "gross_profit": 7181.65,
+        "gross_margin_pct": 61.9
+      },
+      {
+        "discount_pct": -7.5,
+        "price": 139.74,
+        "projected_30d_demand": 744.1,
+        "units_sold_30d": 85.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 11877.9,
+        "gross_profit": 7457.9,
+        "gross_margin_pct": 62.8
+      },
+      {
+        "discount_pct": -10.0,
+        "price": 142.99,
+        "projected_30d_demand": 733.9,
+        "units_sold_30d": 85.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 12154.15,
+        "gross_profit": 7734.15,
+        "gross_margin_pct": 63.6
+      },
+      {
+        "discount_pct": -12.5,
+        "price": 146.24,
+        "projected_30d_demand": 724.1,
+        "units_sold_30d": 85.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 12430.4,
+        "gross_profit": 8010.4,
+        "gross_margin_pct": 64.4
+      },
+      {
+        "discount_pct": -15.0,
+        "price": 149.49,
+        "projected_30d_demand": 714.6,
+        "units_sold_30d": 85.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 12706.65,
+        "gross_profit": 8286.65,
+        "gross_margin_pct": 65.2
+      },
+      {
+        "discount_pct": -17.5,
+        "price": 152.74,
+        "projected_30d_demand": 705.4,
+        "units_sold_30d": 85.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 12982.9,
+        "gross_profit": 8562.9,
+        "gross_margin_pct": 66.0
+      },
+      {
+        "discount_pct": -20.0,
+        "price": 155.99,
+        "projected_30d_demand": 696.6,
+        "units_sold_30d": 85.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 13259.15,
+        "gross_profit": 8839.15,
+        "gross_margin_pct": 66.7
+      }
+    ],
+    "user_scenario": null
+  },
+  "HOME-DESK-900": {
+    "sku_id": "HOME-DESK-900",
+    "elasticity": -0.7,
+    "elasticity_label": "Moderately Elastic",
+    "current_price": 299.0,
+    "unit_cost": 135.0,
+    "current_stock": 650,
+    "days_of_inventory": 37.4,
+    "stockout_risk_status": "HEALTHY",
+    "recommended_action": "MAINTAIN_CURRENT_PRICE",
+    "recommendation_text": "Inventory levels and velocity are in equilibrium. Keep baseline pricing.",
+    "optimal_markdown_pct": 0.0,
+    "optimal_price": 299.0,
+    "sweep_curve": [
+      {
+        "discount_pct": 40.0,
+        "price": 179.4,
+        "projected_30d_demand": 745.7,
+        "units_sold_30d": 650.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 116610.0,
+        "gross_profit": 28860.0,
+        "gross_margin_pct": 24.7
+      },
+      {
+        "discount_pct": 37.5,
+        "price": 186.88,
+        "projected_30d_demand": 724.7,
+        "units_sold_30d": 650.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 121472.0,
+        "gross_profit": 33722.0,
+        "gross_margin_pct": 27.8
+      },
+      {
+        "discount_pct": 35.0,
+        "price": 194.35,
+        "projected_30d_demand": 705.0,
+        "units_sold_30d": 650.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 126327.5,
+        "gross_profit": 38577.5,
+        "gross_margin_pct": 30.5
+      },
+      {
+        "discount_pct": 32.5,
+        "price": 201.82,
+        "projected_30d_demand": 686.7,
+        "units_sold_30d": 650.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 131183.0,
+        "gross_profit": 43433.0,
+        "gross_margin_pct": 33.1
+      },
+      {
+        "discount_pct": 30.0,
+        "price": 209.3,
+        "projected_30d_demand": 669.4,
+        "units_sold_30d": 650.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 136045.0,
+        "gross_profit": 48295.0,
+        "gross_margin_pct": 35.5
+      },
+      {
+        "discount_pct": 27.5,
+        "price": 216.78,
+        "projected_30d_demand": 653.1,
+        "units_sold_30d": 650.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 140907.0,
+        "gross_profit": 53157.0,
+        "gross_margin_pct": 37.7
+      },
+      {
+        "discount_pct": 25.0,
+        "price": 224.25,
+        "projected_30d_demand": 637.8,
+        "units_sold_30d": 637.8,
+        "remaining_stock": 12.2,
+        "projected_revenue": 143035.51,
+        "gross_profit": 56892.09,
+        "gross_margin_pct": 39.8
+      },
+      {
+        "discount_pct": 22.5,
+        "price": 231.72,
+        "projected_30d_demand": 623.4,
+        "units_sold_30d": 623.4,
+        "remaining_stock": 26.6,
+        "projected_revenue": 144448.55,
+        "gross_profit": 60216.06,
+        "gross_margin_pct": 41.7
+      },
+      {
+        "discount_pct": 20.0,
+        "price": 239.2,
+        "projected_30d_demand": 609.7,
+        "units_sold_30d": 609.7,
+        "remaining_stock": 40.3,
+        "projected_revenue": 145831.89,
+        "gross_profit": 63410.74,
+        "gross_margin_pct": 43.6
+      },
+      {
+        "discount_pct": 17.5,
+        "price": 246.68,
+        "projected_30d_demand": 596.7,
+        "units_sold_30d": 596.7,
+        "remaining_stock": 53.3,
+        "projected_revenue": 147185.26,
+        "gross_profit": 66481.65,
+        "gross_margin_pct": 45.3
+      },
+      {
+        "discount_pct": 15.0,
+        "price": 254.15,
+        "projected_30d_demand": 584.3,
+        "units_sold_30d": 584.3,
+        "remaining_stock": 65.7,
+        "projected_revenue": 148508.45,
+        "gross_profit": 69433.94,
+        "gross_margin_pct": 46.9
+      },
+      {
+        "discount_pct": 12.5,
+        "price": 261.62,
+        "projected_30d_demand": 572.6,
+        "units_sold_30d": 572.6,
+        "remaining_stock": 77.4,
+        "projected_revenue": 149804.7,
+        "gross_profit": 72279.86,
+        "gross_margin_pct": 48.4
+      },
+      {
+        "discount_pct": 10.0,
+        "price": 269.1,
+        "projected_30d_demand": 561.4,
+        "units_sold_30d": 561.4,
+        "remaining_stock": 88.6,
+        "projected_revenue": 151076.97,
+        "gross_profit": 75030.29,
+        "gross_margin_pct": 49.8
+      },
+      {
+        "discount_pct": 7.5,
+        "price": 276.58,
+        "projected_30d_demand": 550.7,
+        "units_sold_30d": 550.7,
+        "remaining_stock": 99.3,
+        "projected_revenue": 152324.72,
+        "gross_profit": 77687.96,
+        "gross_margin_pct": 51.2
+      },
+      {
+        "discount_pct": 5.0,
+        "price": 284.05,
+        "projected_30d_demand": 540.6,
+        "units_sold_30d": 540.6,
+        "remaining_stock": 109.4,
+        "projected_revenue": 153547.44,
+        "gross_profit": 80255.48,
+        "gross_margin_pct": 52.5
+      },
+      {
+        "discount_pct": 2.5,
+        "price": 291.53,
+        "projected_30d_demand": 530.8,
+        "units_sold_30d": 530.8,
+        "remaining_stock": 119.2,
+        "projected_revenue": 154749.45,
+        "gross_profit": 82745.15,
+        "gross_margin_pct": 53.7
+      },
+      {
+        "discount_pct": -0.0,
+        "price": 299.0,
+        "projected_30d_demand": 521.5,
+        "units_sold_30d": 521.5,
+        "remaining_stock": 128.5,
+        "projected_revenue": 155928.5,
+        "gross_profit": 85155.29,
+        "gross_margin_pct": 54.8
+      },
+      {
+        "discount_pct": -2.5,
+        "price": 306.48,
+        "projected_30d_demand": 512.6,
+        "units_sold_30d": 512.6,
+        "remaining_stock": 137.4,
+        "projected_revenue": 157088.64,
+        "gross_profit": 87496.86,
+        "gross_margin_pct": 56.0
+      },
+      {
+        "discount_pct": -5.0,
+        "price": 313.95,
+        "projected_30d_demand": 504.0,
+        "units_sold_30d": 504.0,
+        "remaining_stock": 146.0,
+        "projected_revenue": 158227.62,
+        "gross_profit": 89767.76,
+        "gross_margin_pct": 57.0
+      },
+      {
+        "discount_pct": -7.5,
+        "price": 321.43,
+        "projected_30d_demand": 495.8,
+        "units_sold_30d": 495.8,
+        "remaining_stock": 154.2,
+        "projected_revenue": 159349.27,
+        "gross_profit": 91977.88,
+        "gross_margin_pct": 58.0
+      },
+      {
+        "discount_pct": -10.0,
+        "price": 328.9,
+        "projected_30d_demand": 487.8,
+        "units_sold_30d": 487.8,
+        "remaining_stock": 162.2,
+        "projected_revenue": 160451.32,
+        "gross_profit": 94124.8,
+        "gross_margin_pct": 59.0
+      },
+      {
+        "discount_pct": -12.5,
+        "price": 336.38,
+        "projected_30d_demand": 480.2,
+        "units_sold_30d": 480.2,
+        "remaining_stock": 169.8,
+        "projected_revenue": 161537.44,
+        "gross_profit": 96217.53,
+        "gross_margin_pct": 59.9
+      },
+      {
+        "discount_pct": -15.0,
+        "price": 343.85,
+        "projected_30d_demand": 472.9,
+        "units_sold_30d": 472.9,
+        "remaining_stock": 177.1,
+        "projected_revenue": 162605.36,
+        "gross_profit": 98253.44,
+        "gross_margin_pct": 60.7
+      },
+      {
+        "discount_pct": -17.5,
+        "price": 351.32,
+        "projected_30d_demand": 465.8,
+        "units_sold_30d": 465.8,
+        "remaining_stock": 184.2,
+        "projected_revenue": 163657.16,
+        "gross_profit": 100238.13,
+        "gross_margin_pct": 61.6
+      },
+      {
+        "discount_pct": -20.0,
+        "price": 358.8,
+        "projected_30d_demand": 459.0,
+        "units_sold_30d": 459.0,
+        "remaining_stock": 191.0,
+        "projected_revenue": 164694.8,
+        "gross_profit": 102176.71,
+        "gross_margin_pct": 62.4
+      }
+    ],
+    "user_scenario": null
+  },
+  "GROC-COLD-101": {
+    "sku_id": "GROC-COLD-101",
+    "elasticity": -0.68,
+    "elasticity_label": "Moderately Elastic",
+    "current_price": 39.99,
+    "unit_cost": 16.5,
+    "current_stock": 195,
+    "days_of_inventory": 3.1,
+    "stockout_risk_status": "CRITICAL",
+    "recommended_action": "RAISE_PRICE_OR_EXPEDITE_REORDER",
+    "recommendation_text": "Low inventory runway (3.1 days). Limit markdowns or raise price to preserve margins and buffer stockout.",
+    "optimal_markdown_pct": 0.0,
+    "optimal_price": 39.99,
+    "sweep_curve": [
+      {
+        "discount_pct": 40.0,
+        "price": 23.99,
+        "projected_30d_demand": 2629.0,
+        "units_sold_30d": 195.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 4678.05,
+        "gross_profit": 1460.55,
+        "gross_margin_pct": 31.2
+      },
+      {
+        "discount_pct": 37.5,
+        "price": 24.99,
+        "projected_30d_demand": 2557.0,
+        "units_sold_30d": 195.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 4873.05,
+        "gross_profit": 1655.55,
+        "gross_margin_pct": 34.0
+      },
+      {
+        "discount_pct": 35.0,
+        "price": 25.99,
+        "projected_30d_demand": 2489.7,
+        "units_sold_30d": 195.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 5068.05,
+        "gross_profit": 1850.55,
+        "gross_margin_pct": 36.5
+      },
+      {
+        "discount_pct": 32.5,
+        "price": 26.99,
+        "projected_30d_demand": 2426.6,
+        "units_sold_30d": 195.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 5263.05,
+        "gross_profit": 2045.55,
+        "gross_margin_pct": 38.9
+      },
+      {
+        "discount_pct": 30.0,
+        "price": 27.99,
+        "projected_30d_demand": 2367.3,
+        "units_sold_30d": 195.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 5458.05,
+        "gross_profit": 2240.55,
+        "gross_margin_pct": 41.1
+      },
+      {
+        "discount_pct": 27.5,
+        "price": 28.99,
+        "projected_30d_demand": 2311.4,
+        "units_sold_30d": 195.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 5653.05,
+        "gross_profit": 2435.55,
+        "gross_margin_pct": 43.1
+      },
+      {
+        "discount_pct": 25.0,
+        "price": 29.99,
+        "projected_30d_demand": 2258.7,
+        "units_sold_30d": 195.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 5848.05,
+        "gross_profit": 2630.55,
+        "gross_margin_pct": 45.0
+      },
+      {
+        "discount_pct": 22.5,
+        "price": 30.99,
+        "projected_30d_demand": 2208.9,
+        "units_sold_30d": 195.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 6043.05,
+        "gross_profit": 2825.55,
+        "gross_margin_pct": 46.8
+      },
+      {
+        "discount_pct": 20.0,
+        "price": 31.99,
+        "projected_30d_demand": 2161.7,
+        "units_sold_30d": 195.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 6238.05,
+        "gross_profit": 3020.55,
+        "gross_margin_pct": 48.4
+      },
+      {
+        "discount_pct": 17.5,
+        "price": 32.99,
+        "projected_30d_demand": 2116.9,
+        "units_sold_30d": 195.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 6433.05,
+        "gross_profit": 3215.55,
+        "gross_margin_pct": 50.0
+      },
+      {
+        "discount_pct": 15.0,
+        "price": 33.99,
+        "projected_30d_demand": 2074.4,
+        "units_sold_30d": 195.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 6628.05,
+        "gross_profit": 3410.55,
+        "gross_margin_pct": 51.5
+      },
+      {
+        "discount_pct": 12.5,
+        "price": 34.99,
+        "projected_30d_demand": 2033.9,
+        "units_sold_30d": 195.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 6823.05,
+        "gross_profit": 3605.55,
+        "gross_margin_pct": 52.8
+      },
+      {
+        "discount_pct": 10.0,
+        "price": 35.99,
+        "projected_30d_demand": 1995.3,
+        "units_sold_30d": 195.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 7018.05,
+        "gross_profit": 3800.55,
+        "gross_margin_pct": 54.2
+      },
+      {
+        "discount_pct": 7.5,
+        "price": 36.99,
+        "projected_30d_demand": 1958.4,
+        "units_sold_30d": 195.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 7213.05,
+        "gross_profit": 3995.55,
+        "gross_margin_pct": 55.4
+      },
+      {
+        "discount_pct": 5.0,
+        "price": 37.99,
+        "projected_30d_demand": 1923.2,
+        "units_sold_30d": 195.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 7408.05,
+        "gross_profit": 4190.55,
+        "gross_margin_pct": 56.6
+      },
+      {
+        "discount_pct": 2.5,
+        "price": 38.99,
+        "projected_30d_demand": 1889.6,
+        "units_sold_30d": 195.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 7603.05,
+        "gross_profit": 4385.55,
+        "gross_margin_pct": 57.7
+      },
+      {
+        "discount_pct": -0.0,
+        "price": 39.99,
+        "projected_30d_demand": 1857.3,
+        "units_sold_30d": 195.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 7798.05,
+        "gross_profit": 4580.55,
+        "gross_margin_pct": 58.7
+      },
+      {
+        "discount_pct": -2.5,
+        "price": 40.99,
+        "projected_30d_demand": 1826.4,
+        "units_sold_30d": 195.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 7993.05,
+        "gross_profit": 4775.55,
+        "gross_margin_pct": 59.7
+      },
+      {
+        "discount_pct": -5.0,
+        "price": 41.99,
+        "projected_30d_demand": 1796.7,
+        "units_sold_30d": 195.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 8188.05,
+        "gross_profit": 4970.55,
+        "gross_margin_pct": 60.7
+      },
+      {
+        "discount_pct": -7.5,
+        "price": 42.99,
+        "projected_30d_demand": 1768.2,
+        "units_sold_30d": 195.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 8383.05,
+        "gross_profit": 5165.55,
+        "gross_margin_pct": 61.6
+      },
+      {
+        "discount_pct": -10.0,
+        "price": 43.99,
+        "projected_30d_demand": 1740.7,
+        "units_sold_30d": 195.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 8578.05,
+        "gross_profit": 5360.55,
+        "gross_margin_pct": 62.5
+      },
+      {
+        "discount_pct": -12.5,
+        "price": 44.99,
+        "projected_30d_demand": 1714.3,
+        "units_sold_30d": 195.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 8773.05,
+        "gross_profit": 5555.55,
+        "gross_margin_pct": 63.3
+      },
+      {
+        "discount_pct": -15.0,
+        "price": 45.99,
+        "projected_30d_demand": 1688.9,
+        "units_sold_30d": 195.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 8968.05,
+        "gross_profit": 5750.55,
+        "gross_margin_pct": 64.1
+      },
+      {
+        "discount_pct": -17.5,
+        "price": 46.99,
+        "projected_30d_demand": 1664.4,
+        "units_sold_30d": 195.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 9163.05,
+        "gross_profit": 5945.55,
+        "gross_margin_pct": 64.9
+      },
+      {
+        "discount_pct": -20.0,
+        "price": 47.99,
+        "projected_30d_demand": 1640.7,
+        "units_sold_30d": 195.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 9358.05,
+        "gross_profit": 6140.55,
+        "gross_margin_pct": 65.6
+      }
+    ],
+    "user_scenario": null
+  },
+  "GROC-MATC-102": {
+    "sku_id": "GROC-MATC-102",
+    "elasticity": -0.6,
+    "elasticity_label": "Moderately Elastic",
+    "current_price": 34.0,
+    "unit_cost": 12.0,
+    "current_stock": 160,
+    "days_of_inventory": 3.9,
+    "stockout_risk_status": "CRITICAL",
+    "recommended_action": "RAISE_PRICE_OR_EXPEDITE_REORDER",
+    "recommendation_text": "Low inventory runway (3.9 days). Limit markdowns or raise price to preserve margins and buffer stockout.",
+    "optimal_markdown_pct": 0.0,
+    "optimal_price": 34.0,
+    "sweep_curve": [
+      {
+        "discount_pct": 40.0,
+        "price": 20.4,
+        "projected_30d_demand": 1689.2,
+        "units_sold_30d": 160.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 3264.0,
+        "gross_profit": 1344.0,
+        "gross_margin_pct": 41.2
+      },
+      {
+        "discount_pct": 37.5,
+        "price": 21.25,
+        "projected_30d_demand": 1648.3,
+        "units_sold_30d": 160.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 3400.0,
+        "gross_profit": 1480.0,
+        "gross_margin_pct": 43.5
+      },
+      {
+        "discount_pct": 35.0,
+        "price": 22.1,
+        "projected_30d_demand": 1610.0,
+        "units_sold_30d": 160.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 3536.0,
+        "gross_profit": 1616.0,
+        "gross_margin_pct": 45.7
+      },
+      {
+        "discount_pct": 32.5,
+        "price": 22.95,
+        "projected_30d_demand": 1574.0,
+        "units_sold_30d": 160.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 3672.0,
+        "gross_profit": 1752.0,
+        "gross_margin_pct": 47.7
+      },
+      {
+        "discount_pct": 30.0,
+        "price": 23.8,
+        "projected_30d_demand": 1540.0,
+        "units_sold_30d": 160.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 3808.0,
+        "gross_profit": 1888.0,
+        "gross_margin_pct": 49.6
+      },
+      {
+        "discount_pct": 27.5,
+        "price": 24.65,
+        "projected_30d_demand": 1507.9,
+        "units_sold_30d": 160.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 3944.0,
+        "gross_profit": 2024.0,
+        "gross_margin_pct": 51.3
+      },
+      {
+        "discount_pct": 25.0,
+        "price": 25.5,
+        "projected_30d_demand": 1477.5,
+        "units_sold_30d": 160.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 4080.0,
+        "gross_profit": 2160.0,
+        "gross_margin_pct": 52.9
+      },
+      {
+        "discount_pct": 22.5,
+        "price": 26.35,
+        "projected_30d_demand": 1448.8,
+        "units_sold_30d": 160.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 4216.0,
+        "gross_profit": 2296.0,
+        "gross_margin_pct": 54.5
+      },
+      {
+        "discount_pct": 20.0,
+        "price": 27.2,
+        "projected_30d_demand": 1421.4,
+        "units_sold_30d": 160.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 4352.0,
+        "gross_profit": 2432.0,
+        "gross_margin_pct": 55.9
+      },
+      {
+        "discount_pct": 17.5,
+        "price": 28.05,
+        "projected_30d_demand": 1395.4,
+        "units_sold_30d": 160.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 4488.0,
+        "gross_profit": 2568.0,
+        "gross_margin_pct": 57.2
+      },
+      {
+        "discount_pct": 15.0,
+        "price": 28.9,
+        "projected_30d_demand": 1370.6,
+        "units_sold_30d": 160.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 4624.0,
+        "gross_profit": 2704.0,
+        "gross_margin_pct": 58.5
+      },
+      {
+        "discount_pct": 12.5,
+        "price": 29.75,
+        "projected_30d_demand": 1347.0,
+        "units_sold_30d": 160.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 4760.0,
+        "gross_profit": 2840.0,
+        "gross_margin_pct": 59.7
+      },
+      {
+        "discount_pct": 10.0,
+        "price": 30.6,
+        "projected_30d_demand": 1324.4,
+        "units_sold_30d": 160.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 4896.0,
+        "gross_profit": 2976.0,
+        "gross_margin_pct": 60.8
+      },
+      {
+        "discount_pct": 7.5,
+        "price": 31.45,
+        "projected_30d_demand": 1302.8,
+        "units_sold_30d": 160.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 5032.0,
+        "gross_profit": 3112.0,
+        "gross_margin_pct": 61.8
+      },
+      {
+        "discount_pct": 5.0,
+        "price": 32.3,
+        "projected_30d_demand": 1282.2,
+        "units_sold_30d": 160.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 5168.0,
+        "gross_profit": 3248.0,
+        "gross_margin_pct": 62.8
+      },
+      {
+        "discount_pct": 2.5,
+        "price": 33.15,
+        "projected_30d_demand": 1262.3,
+        "units_sold_30d": 160.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 5304.0,
+        "gross_profit": 3384.0,
+        "gross_margin_pct": 63.8
+      },
+      {
+        "discount_pct": -0.0,
+        "price": 34.0,
+        "projected_30d_demand": 1243.3,
+        "units_sold_30d": 160.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 5440.0,
+        "gross_profit": 3520.0,
+        "gross_margin_pct": 64.7
+      },
+      {
+        "discount_pct": -2.5,
+        "price": 34.85,
+        "projected_30d_demand": 1225.0,
+        "units_sold_30d": 160.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 5576.0,
+        "gross_profit": 3656.0,
+        "gross_margin_pct": 65.6
+      },
+      {
+        "discount_pct": -5.0,
+        "price": 35.7,
+        "projected_30d_demand": 1207.4,
+        "units_sold_30d": 160.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 5712.0,
+        "gross_profit": 3792.0,
+        "gross_margin_pct": 66.4
+      },
+      {
+        "discount_pct": -7.5,
+        "price": 36.55,
+        "projected_30d_demand": 1190.5,
+        "units_sold_30d": 160.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 5848.0,
+        "gross_profit": 3928.0,
+        "gross_margin_pct": 67.2
+      },
+      {
+        "discount_pct": -10.0,
+        "price": 37.4,
+        "projected_30d_demand": 1174.2,
+        "units_sold_30d": 160.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 5984.0,
+        "gross_profit": 4064.0,
+        "gross_margin_pct": 67.9
+      },
+      {
+        "discount_pct": -12.5,
+        "price": 38.25,
+        "projected_30d_demand": 1158.5,
+        "units_sold_30d": 160.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 6120.0,
+        "gross_profit": 4200.0,
+        "gross_margin_pct": 68.6
+      },
+      {
+        "discount_pct": -15.0,
+        "price": 39.1,
+        "projected_30d_demand": 1143.3,
+        "units_sold_30d": 160.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 6256.0,
+        "gross_profit": 4336.0,
+        "gross_margin_pct": 69.3
+      },
+      {
+        "discount_pct": -17.5,
+        "price": 39.95,
+        "projected_30d_demand": 1128.6,
+        "units_sold_30d": 160.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 6392.0,
+        "gross_profit": 4472.0,
+        "gross_margin_pct": 70.0
+      },
+      {
+        "discount_pct": -20.0,
+        "price": 40.8,
+        "projected_30d_demand": 1114.5,
+        "units_sold_30d": 160.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 6528.0,
+        "gross_profit": 4608.0,
+        "gross_margin_pct": 70.6
+      }
+    ],
+    "user_scenario": null
+  },
+  "CARE-TOOTH-103": {
+    "sku_id": "CARE-TOOTH-103",
+    "elasticity": -0.74,
+    "elasticity_label": "Moderately Elastic",
+    "current_price": 69.5,
+    "unit_cost": 24.0,
+    "current_stock": 110,
+    "days_of_inventory": 2.7,
+    "stockout_risk_status": "CRITICAL",
+    "recommended_action": "RAISE_PRICE_OR_EXPEDITE_REORDER",
+    "recommendation_text": "Low inventory runway (2.7 days). Limit markdowns or raise price to preserve margins and buffer stockout.",
+    "optimal_markdown_pct": 0.0,
+    "optimal_price": 69.5,
+    "sweep_curve": [
+      {
+        "discount_pct": 40.0,
+        "price": 41.7,
+        "projected_30d_demand": 1800.9,
+        "units_sold_30d": 110.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 4587.0,
+        "gross_profit": 1947.0,
+        "gross_margin_pct": 42.4
+      },
+      {
+        "discount_pct": 37.5,
+        "price": 43.44,
+        "projected_30d_demand": 1747.2,
+        "units_sold_30d": 110.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 4778.4,
+        "gross_profit": 2138.4,
+        "gross_margin_pct": 44.8
+      },
+      {
+        "discount_pct": 35.0,
+        "price": 45.18,
+        "projected_30d_demand": 1697.2,
+        "units_sold_30d": 110.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 4969.8,
+        "gross_profit": 2329.8,
+        "gross_margin_pct": 46.9
+      },
+      {
+        "discount_pct": 32.5,
+        "price": 46.91,
+        "projected_30d_demand": 1650.6,
+        "units_sold_30d": 110.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 5160.1,
+        "gross_profit": 2520.1,
+        "gross_margin_pct": 48.8
+      },
+      {
+        "discount_pct": 30.0,
+        "price": 48.65,
+        "projected_30d_demand": 1606.7,
+        "units_sold_30d": 110.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 5351.5,
+        "gross_profit": 2711.5,
+        "gross_margin_pct": 50.7
+      },
+      {
+        "discount_pct": 27.5,
+        "price": 50.39,
+        "projected_30d_demand": 1565.5,
+        "units_sold_30d": 110.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 5542.9,
+        "gross_profit": 2902.9,
+        "gross_margin_pct": 52.4
+      },
+      {
+        "discount_pct": 25.0,
+        "price": 52.12,
+        "projected_30d_demand": 1526.9,
+        "units_sold_30d": 110.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 5733.2,
+        "gross_profit": 3093.2,
+        "gross_margin_pct": 54.0
+      },
+      {
+        "discount_pct": 22.5,
+        "price": 53.86,
+        "projected_30d_demand": 1490.2,
+        "units_sold_30d": 110.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 5924.6,
+        "gross_profit": 3284.6,
+        "gross_margin_pct": 55.4
+      },
+      {
+        "discount_pct": 20.0,
+        "price": 55.6,
+        "projected_30d_demand": 1455.6,
+        "units_sold_30d": 110.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 6116.0,
+        "gross_profit": 3476.0,
+        "gross_margin_pct": 56.8
+      },
+      {
+        "discount_pct": 17.5,
+        "price": 57.34,
+        "projected_30d_demand": 1422.7,
+        "units_sold_30d": 110.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 6307.4,
+        "gross_profit": 3667.4,
+        "gross_margin_pct": 58.1
+      },
+      {
+        "discount_pct": 15.0,
+        "price": 59.08,
+        "projected_30d_demand": 1391.6,
+        "units_sold_30d": 110.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 6498.8,
+        "gross_profit": 3858.8,
+        "gross_margin_pct": 59.4
+      },
+      {
+        "discount_pct": 12.5,
+        "price": 60.81,
+        "projected_30d_demand": 1362.2,
+        "units_sold_30d": 110.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 6689.1,
+        "gross_profit": 4049.1,
+        "gross_margin_pct": 60.5
+      },
+      {
+        "discount_pct": 10.0,
+        "price": 62.55,
+        "projected_30d_demand": 1334.1,
+        "units_sold_30d": 110.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 6880.5,
+        "gross_profit": 4240.5,
+        "gross_margin_pct": 61.6
+      },
+      {
+        "discount_pct": 7.5,
+        "price": 64.29,
+        "projected_30d_demand": 1307.2,
+        "units_sold_30d": 110.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 7071.9,
+        "gross_profit": 4431.9,
+        "gross_margin_pct": 62.7
+      },
+      {
+        "discount_pct": 5.0,
+        "price": 66.03,
+        "projected_30d_demand": 1281.7,
+        "units_sold_30d": 110.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 7263.3,
+        "gross_profit": 4623.3,
+        "gross_margin_pct": 63.7
+      },
+      {
+        "discount_pct": 2.5,
+        "price": 67.76,
+        "projected_30d_demand": 1257.4,
+        "units_sold_30d": 110.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 7453.6,
+        "gross_profit": 4813.6,
+        "gross_margin_pct": 64.6
+      },
+      {
+        "discount_pct": -0.0,
+        "price": 69.5,
+        "projected_30d_demand": 1234.0,
+        "units_sold_30d": 110.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 7645.0,
+        "gross_profit": 5005.0,
+        "gross_margin_pct": 65.5
+      },
+      {
+        "discount_pct": -2.5,
+        "price": 71.24,
+        "projected_30d_demand": 1211.6,
+        "units_sold_30d": 110.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 7836.4,
+        "gross_profit": 5196.4,
+        "gross_margin_pct": 66.3
+      },
+      {
+        "discount_pct": -5.0,
+        "price": 72.98,
+        "projected_30d_demand": 1190.2,
+        "units_sold_30d": 110.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 8027.8,
+        "gross_profit": 5387.8,
+        "gross_margin_pct": 67.1
+      },
+      {
+        "discount_pct": -7.5,
+        "price": 74.71,
+        "projected_30d_demand": 1169.7,
+        "units_sold_30d": 110.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 8218.1,
+        "gross_profit": 5578.1,
+        "gross_margin_pct": 67.9
+      },
+      {
+        "discount_pct": -10.0,
+        "price": 76.45,
+        "projected_30d_demand": 1150.0,
+        "units_sold_30d": 110.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 8409.5,
+        "gross_profit": 5769.5,
+        "gross_margin_pct": 68.6
+      },
+      {
+        "discount_pct": -12.5,
+        "price": 78.19,
+        "projected_30d_demand": 1131.0,
+        "units_sold_30d": 110.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 8600.9,
+        "gross_profit": 5960.9,
+        "gross_margin_pct": 69.3
+      },
+      {
+        "discount_pct": -15.0,
+        "price": 79.93,
+        "projected_30d_demand": 1112.7,
+        "units_sold_30d": 110.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 8792.3,
+        "gross_profit": 6152.3,
+        "gross_margin_pct": 70.0
+      },
+      {
+        "discount_pct": -17.5,
+        "price": 81.66,
+        "projected_30d_demand": 1095.2,
+        "units_sold_30d": 110.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 8982.6,
+        "gross_profit": 6342.6,
+        "gross_margin_pct": 70.6
+      },
+      {
+        "discount_pct": -20.0,
+        "price": 83.4,
+        "projected_30d_demand": 1078.3,
+        "units_sold_30d": 110.0,
+        "remaining_stock": 0.0,
+        "projected_revenue": 9174.0,
+        "gross_profit": 6534.0,
+        "gross_margin_pct": 71.2
+      }
+    ],
+    "user_scenario": null
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "run_id": "dag_run_20261004_132932",
+  "status": "SUCCESS",
+  "duration_seconds": 30.53,
+  "timestamp": "2026-10-04 13:30:02",
+  "records_ingested": 4380,
+  "features_engineered": 36,
+  "skus_evaluated": 12,
+  "kpis": {
+    "total_skus": 12,
+    "projected_30d_revenue": 1364695.79,
+    "total_inventory_units": 2525,
+    "critical_stockouts_count": 10,
+    "overstocked_count": 0,
+    "best_performing_model": "Ensemble (LightGBM + Prophet)"
+  }
+}
