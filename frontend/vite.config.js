@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: './', // agnostic relative paths for GitHub Pages deployment
+  base: '/ecommercedash/', // GitHub Pages serves under /<repo-name>/
   server: {
     port: 3000,
     open: false,
